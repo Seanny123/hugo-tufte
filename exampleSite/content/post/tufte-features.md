@@ -11,16 +11,8 @@ categories = ["mathjax", "latex", "tufte-css"]
 
 +++
 
-This is a quick demonstration post.  It serves as an example of the features
+This is a *quick* **demonstration** post.  It serves as an example of the features
 of this theme.  One of them is \\( \LaTeX \\) via MathJax. 
-{{< section "begin" >}}
-## A Bit About Mathematics
-
-{{% epigraph pre="Shawn O'Hare, " cite="Math is Fun" %}}
-This is an example of an epigraph with some math
-\\(\mathbb N \subseteq \mathbb R \\)
-to start the beginning of a section.
-{{% /epigraph %}}
 
 <!--more-->
 
@@ -83,13 +75,6 @@ Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 id sem consectetuer libero luctus adipiscing.
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 {{% /blockquote %}}
-
-### New thoughts
-
-<span class="newthought">Sometimes a new thought</span> distinguishes a section,
-as here.  There are currently two ways to create one.  One way is with raw
-HTML such as: `<span class="newthought">...</span>"`.  The theme also provides
-the `newthought` shortcode.
 
 ### Code
 As an example of some inline code: `go test -v -short`.

@@ -38,6 +38,11 @@ pre code {
     }
  }*/
 
+hr {
+    margin-right: 45%;
+}
+
+
 /* ------------------------------------------------------------------------ */
 /* Brand details, such as a sidebar or top display. */
 /* ------------------------------------------------------------------------ */
@@ -48,8 +53,10 @@ header.brand{
 /* Main brand title */
 header.brand h1 {
     margin: 0;
-    font-weight: 400;
-    color: rgba(65, 70, 75, 1);
+    font-weight: 500;
+    color: #60a4ff;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-shadow: -1px 0 #000066, 0 1px #000066, 1px 0 #000066, 0 -1px #000066;
 }
 
 header.brand h2 {
@@ -80,8 +87,8 @@ nav.menu ul {
 }
 
 nav.menu li {
-	display: inline-block;
-	margin-right: 1rem;
+    display: inline-block;
+    margin-right: 1rem;
 }
 
 nav.menu li a {
@@ -122,14 +129,13 @@ h1.content-title a:focus {
 .content-meta {
     display: block;
     /*color: rgba(155, 155, 155, 1);*/
-    color: rgba(100, 105, 110, 1);
+    color: #999;
     font-size: 1.1rem;
     margin-top: 1em;
 }
 
 .content-meta .author {
-    /*color: rgb(90, 20, 55)*/
-    color: rgba(65, 70, 75, 1);
+    color: #999;
 }
 
 
@@ -167,17 +173,17 @@ h1.content-title a:focus {
 }
 
 .toc {
-	/*float: right;*/
-	/*padding: 0rem 1rem 1rem 1rem;*/
+    /*float: right;*/
+    /*padding: 0rem 1rem 1rem 1rem;*/
     /*margin-top: 1rem;*/
-	/*border-left: 1px solid #eee;*/
+    /*border-left: 1px solid #eee;*/
 }
 
 .toc ul {
-	list-style: none;
-	display: block;
-	/*margin-top: 0.75rem;*/
-	padding: 0;
+    list-style: none;
+    display: block;
+    /*margin-top: 0.75rem;*/
+    padding: 0;
     width: 87.5%;
 }
 
@@ -217,17 +223,17 @@ footer.page-footer hr {
 }
 
 footer.page-footer ul.page-footer-menu {
-	list-style: none;
-	display: block;
-	/*text-align:center;*/
-	margin: 0;
-	padding: 0;
+    list-style: none;
+    display: block;
+    /*text-align:center;*/
+    margin: 0;
+    padding: 0;
 }
 
 footer.page-footer ul.page-footer-menu li {
-	display: inline-block;
-	margin-right: 0.5rem;
-	font-size: 55%;
+    display: inline-block;
+    margin-right: 0.5rem;
+    font-size: 55%;
 }
 
 .copyright {
