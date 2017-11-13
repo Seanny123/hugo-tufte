@@ -42,6 +42,10 @@ hr {
     margin-right: 45%;
 }
 
+/* make pure tables readable */
+.pure-table-odd td, .pure-table-striped tr:nth-child(2n-1) td {
+    background-color: #444;
+}
 
 /* ------------------------------------------------------------------------ */
 /* Brand details, such as a sidebar or top display. */
