@@ -1,12 +1,12 @@
-name = "Tufte"
+name = "Tufte-Dark"
 license = "MIT"
-licenselink = "https://github.com/shawnohare/hugo-tufte/blob/master/LICENSE.md"
+licenselink = "https://github.com/Seanny123/hugo-tufte-dark/blob/master/LICENSE.md"
 description = "A minimalist blog theme using Tufte-css."
-homepage = "http://github.com/shawnohare/hugo-tufte"
-tags = ["blog", "tufte", "minimal"]
+homepage = "https://github.com/Seanny123/hugo-tufte-dark"
+tags = ["blog", "tufte", "minimal", "dark"]
 features = ["math", "tufte-css", "tufte"]
 min_version = 0.15
 
 [author]
-  name = "Shawn O'Hare"
-  homepage = "http://www.shawnohare.com"
+  name = "Sean Aubin"
+  homepage = "https://seanaubin.github.io"
